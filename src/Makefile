@@ -1,4 +1,4 @@
-OBJS=		main.o cpu6502.o memory.o vic.o cia2.o peripheral.o hostio.o cia1.o info6502.o \
+OBJS=		c64emu.o cpu6502.o memory.o vic.o cia2.o peripheral.o hostio.o cia1.o info6502.o \
 		iecbus.o cia.o iec1541.o disk.o
 CPPFLAGS+=	-Wall -Werror -g
 LDFLAGS+=	`sdl-config --libs`
